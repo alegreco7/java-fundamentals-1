@@ -3,12 +3,13 @@ package org.lessons.java;
 public class FavoriteFoods {
     public static void main(String[] args) {
         // Classifica cibi preferiti
-        String[] cibi = new String[5];
-        cibi[0] = "pizza";
-        cibi[1] = "pasta all'amatriciana";
-        cibi[2] = "bistecca";
-        cibi[3] = "carbonara";
-        cibi[4] = "tortellini in brodo";
+        String[] cibi = {
+                "pizza",
+                "pasta all'amatriciana",
+                "bistecca",
+                "carbonara",
+                "tortellini in brodo"
+        };
 
         // Stampare la lunghezza dell'array
         System.out.println("Lunghezza dell'array cibi: " + cibi.length);
