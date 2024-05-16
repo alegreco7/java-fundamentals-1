@@ -10,21 +10,21 @@ import java.util.Scanner;
 public class Snack2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int N;
+        int LatoCubo;
 
         while (true) {
             System.out.println("Inserisci un numero compreso tra 1 e 20:");
-            N = scanner.nextInt();
+            LatoCubo = scanner.nextInt();
 
-            if (N >= 1 && N <= 20) {
+            if (LatoCubo >= 1 && LatoCubo <= 20) {
                 break;
             } else {
                 System.out.println("Il numero inserito non è compreso tra 1 e 20. Riprova.");
             }
         }
 
-        System.out.println("I cubi dei primi " + N + " numeri sono:");
-        for (int i = 1; i <= N; i++) {
+        System.out.println("I cubi dei primi " + LatoCubo + " numeri sono:");
+        for (int i = 1; i <= LatoCubo; i++) {
             int cubo = i * i * i;
             System.out.println("Il cubo di " + i + " è: " + cubo);
         }

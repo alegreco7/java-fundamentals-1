@@ -20,11 +20,11 @@ public class Snack1 {
         System.out.println("Inserisci la lunghezza del terzo segmento:");
         double segmento3 = scanner.nextDouble();
 
-        boolean Triangolo = (segmento1 + segmento2 > segmento3) &&
+        boolean triangolo = (segmento1 + segmento2 > segmento3) &&
                 (segmento2 + segmento3 > segmento1) &&
                 (segmento1 + segmento3 > segmento2);
 
-        if (Triangolo) {
+        if (triangolo) {
             System.out.println("È possibile costruire un triangolo con le lunghezze fornite.");
         } else {
             System.out.println("Non è possibile costruire un triangolo con le lunghezze fornite.");
